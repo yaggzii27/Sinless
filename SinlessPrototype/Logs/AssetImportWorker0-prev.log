@@ -1,0 +1,333 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.804; Version 2009; 64bit' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/Other/Sinless/SinlessPrototype
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49502
+Successfully changed project path to: D:/Projects/Other/Sinless/SinlessPrototype
+D:/Projects/Other/Sinless/SinlessPrototype
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Other/Sinless/SinlessPrototype/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10077 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002410 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000522 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022EEE47E4A0 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE1BA010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF405F630 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE1BA010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF276C830 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE1BA010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE627420 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE1BA010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE536C90 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE54B6A0 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.2 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 2.010500 ms (FindLiveObjects: 0.256700 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.616000 ms  DeleteObjects: 0.097700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(7f3f3dbfdfdc41e4fb5201aa70446b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7f3f3dbfdfdc41e4fb5201aa70446b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bbf20275c93717f47252c296b281e25') in 0.004424 seconds
+  Import took 0.006144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.337144 seconds.
+  path: Assets/LowPolyOpenWorld
+  artifactKey: Guid(a8f099294786a3f4db896882021cdeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOpenWorld using Guid(a8f099294786a3f4db896882021cdeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0a9915701ae2b046ce6bef3250f94f') in 0.003384 seconds
+  Import took 0.005452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.468183 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(bc9b8594a7e389940b94c00a7405c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(bc9b8594a7e389940b94c00a7405c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0712ad6c76c72290332c4fb8d795c2') in 0.003228 seconds
+  Import took 0.005085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081186 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_1cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(1852d65abd235d34ebf535ee8853f00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_1cd2d2d038030d602.terrainlayer using Guid(1852d65abd235d34ebf535ee8853f00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2420af1c06bb8e4c51381d0424aedd') in 0.067195 seconds
+  Import took 0.069266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_4cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(24994ea9a2c6ac64b81cb0b16dc27121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_4cd2d2d038030d602.terrainlayer using Guid(24994ea9a2c6ac64b81cb0b16dc27121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcccd39202a6c1906078de2ad101bfb0') in 0.008958 seconds
+  Import took 0.010639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Snow_1cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(12c0fa1490a94d14588abd078c351492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Snow_1cd2d2d038030d602.terrainlayer using Guid(12c0fa1490a94d14588abd078c351492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81cebd78fd0f73224177d0b85f447f3') in 0.008864 seconds
+  Import took 0.010897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Snow_3cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(fa67b5a0039276341abd85b56873e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Snow_3cd2d2d038030d602.terrainlayer using Guid(fa67b5a0039276341abd85b56873e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b39d8c62835cedd80a752e8696ff8a') in 0.009985 seconds
+  Import took 0.011772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_6cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(66cb616c356005d4d9a95a23707e4423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_6cd2d2d038030d602.terrainlayer using Guid(66cb616c356005d4d9a95a23707e4423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a9ce973a9aa61a9e02438c5844c47') in 0.007342 seconds
+  Import took 0.008803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_2cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(ac3eb4fb6c0ee0043af1c580f46f825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_2cd2d2d038030d602.terrainlayer using Guid(ac3eb4fb6c0ee0043af1c580f46f825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509dfd314bb2917dcdd5f7ed80aea89b') in 0.007475 seconds
+  Import took 0.008920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.571659 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(9527d03cf1a01ef44b593b0c68e34672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(9527d03cf1a01ef44b593b0c68e34672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2cca7e1215c71feed7de7a56c9040a') in 0.002214 seconds
+  Import took 0.004294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.971106 seconds.
+  path: Assets/Prefabs/Player
+  artifactKey: Guid(559bb3b41267cfc4c96d26c2666a9fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player using Guid(559bb3b41267cfc4c96d26c2666a9fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07b6f6d9bc17162c2a3b06c7cd9ffee') in 0.002227 seconds
+  Import took 0.004071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Prefabs/Player
+  artifactKey: Guid(559bb3b41267cfc4c96d26c2666a9fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player using Guid(559bb3b41267cfc4c96d26c2666a9fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07b6f6d9bc17162c2a3b06c7cd9ffee') in 0.001962 seconds
+  Import took 0.003125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038003 seconds.
+  path: Assets/Prefabs/Player/LocalPlayer.prefab
+  artifactKey: Guid(5a45ad7e044dd704d822c34d6d454445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/LocalPlayer.prefab using Guid(5a45ad7e044dd704d822c34d6d454445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c22e7f430a2180d6032729df50b8d71') in 0.033622 seconds
+  Import took 0.035538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(7a69da7c36d58e8459c02994f769afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(7a69da7c36d58e8459c02994f769afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb652447c63edd6d7ba46d892bb2ef2b') in 0.011729 seconds
+  Import took 0.013566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(7a69da7c36d58e8459c02994f769afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(7a69da7c36d58e8459c02994f769afab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb652447c63edd6d7ba46d892bb2ef2b') in 0.010633 seconds
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.565260 seconds.
+  path: Assets/LowPolyOpenWorld/Scenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOpenWorld/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1dc7dba2f81ac20f33d8944a317bf1') in 0.002291 seconds
+  Import took 0.004172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139815 seconds.
+  path: Assets/LowPolyOpenWorld/Scenes/Example 1.unity
+  artifactKey: Guid(a7b3f1d3bb31539439c5537844287f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOpenWorld/Scenes/Example 1.unity using Guid(a7b3f1d3bb31539439c5537844287f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caba83e051ea7a6a7b795a4bd8911dc') in 0.034061 seconds
+  Import took 0.036014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.635161 seconds.
+  path: Assets/LowPolyOpenWorld/Scenes/Example 2.unity
+  artifactKey: Guid(ae856035923e4f64b8e638dbc003e03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOpenWorld/Scenes/Example 2.unity using Guid(ae856035923e4f64b8e638dbc003e03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaf23af7c9c83d33dddc41321519f3d') in 0.014213 seconds
+  Import took 0.016281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.121322 seconds.
+  path: Assets/LowPolyOpenWorld/Scenes/Trial.unity
+  artifactKey: Guid(a7b3f1d3bb31539439c5537844287f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOpenWorld/Scenes/Trial.unity using Guid(a7b3f1d3bb31539439c5537844287f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5458f24f44e351b86e0a39d71fab91ca') in 0.003190 seconds
+  Import took 0.005073 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000449 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022EEE9DE500 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF4137010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE724620 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF3465120 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE3E8D40 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF3465120 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF36D5010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF3465120 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE1E6010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF33B4E30 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.3 MB.
+System memory in use after: 64.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 2.100000 ms (FindLiveObjects: 0.155100 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.356900 ms  DeleteObjects: 0.554300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000778 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022EEE215150 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE5A7460 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE22C010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF2FF4040 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF4D93D00 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF3465120 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF4372010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF3465120 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EEE1E6010 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022EF4FEE440 doesn't match image D:\Projects\Other\Sinless\SinlessPrototype\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1208 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.2 MB.
+System memory in use after: 64.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 2.151100 ms (FindLiveObjects: 0.132200 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.368600 ms  DeleteObjects: 0.622100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
