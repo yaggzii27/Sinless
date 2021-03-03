@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/LowPolyOpenWorld/Scenes/Trial.unity
+- path: Assets/Models/LowPolyOpenWorld/Scenes/Trial.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
