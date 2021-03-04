@@ -657,4 +657,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Models/LowPolyOpenWorld/Scenes/Trial.unity
-  playerPath: C:/Users/Diogo/Desktop/Sinless/Sinless/SinlessPrototype/Builds/ServerTest/SinlessPrototype.exe
+  playerPath: C:/Users/Diogo/Desktop/Sinless/Sinless/SinlessPrototype/Builds/LocalBuild/SinlessPrototype.exe

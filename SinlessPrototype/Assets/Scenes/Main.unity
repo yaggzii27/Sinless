@@ -639,6 +639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClientManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8690163531572540989, guid: 7364de6a75488a44caa73bdd87c52e70, type: 3}
+      propertyPath: ip
+      value: 192.168.2.13
+      objectReference: {fileID: 0}
     - target: {fileID: 8690163531572540990, guid: 7364de6a75488a44caa73bdd87c52e70, type: 3}
       propertyPath: m_RootOrder
       value: 2
