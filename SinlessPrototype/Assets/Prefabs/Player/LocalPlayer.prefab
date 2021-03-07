@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 620931012636331822}
   - component: {fileID: 8521563529749579484}
   - component: {fileID: 6684870491961273452}
+  - component: {fileID: 8842701341816796381}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -131,9 +132,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aa3cf9bc1c11e34b8247c2f87f591db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  referenceTransform: {fileID: 3107191951810081938}
+  collisionOffset: 0.2
   Target: {fileID: 3107191951810081938}
   Player: {fileID: 1379496168531313096}
   Obstruction: {fileID: 0}
+  cam: {fileID: 620931012636331822}
+--- !u!114 &8842701341816796381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4956248768358831361}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175841680c11c214a9ea08b0bfb437eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1379496168531313096}
+  distance: 10
+  height: 5
+  heightDamping: 2
+  rotationDamping: 3
 --- !u!1 &5228574640682996942
 GameObject:
   m_ObjectHideFlags: 0

@@ -130,16 +130,25 @@ public class PlayerLocomotion : MonoBehaviour
         bool backPressed = Input.GetKey(KeyCode.S);
         bool runPressed = Input.GetKey(KeyCode.LeftControl);
         bool jumpPressed = Input.GetKey(KeyCode.Space);
+
+        if (jumpPressed)
+        {
+            animator.Play("Jump");
+        }
         
         //set current max velocity
         float currentMaxVelocity = runPressed ? maxRunVelocity : maxWalkVelocity;
 
-        //handle the velocity chnges based on buttons pressed
-        changevelocity(forwardPressed, leftPressed, rightPressed, runPressed, currentMaxVelocity);
+        if (!jumpPressed)
+        {
 
-        //set parameters to local variable values
-        animator.SetFloat(VelocityZHash, velocityZ);
-        animator.SetFloat(VelocityXHash, velocityX);
+            //handle the velocity chnges based on buttons pressed
+            changevelocity(forwardPressed, leftPressed, rightPressed, runPressed, currentMaxVelocity);
 
+
+            //set parameters to local variable values
+            animator.SetFloat(VelocityZHash, velocityZ);
+            animator.SetFloat(VelocityXHash, velocityX);
+        }
     }
 }

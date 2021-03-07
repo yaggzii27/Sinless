@@ -8,14 +8,17 @@ public class Player : MonoBehaviour
     public string username;
     public CharacterController controller;
     public float gravity = -9.81f;
-    public float moveSpeed = 5f;
+    public float moveSpeed = 2.5f;
     public float jumpSpeed = 5f;
+    public float rotationSpeed = 75.0f;
+    private PlayerLocomotion pl;
 
     private bool[] inputs;
     private float yVelocity = 0;
 
     private void Start()
     {
+        pl = GetComponentInChildren<PlayerLocomotion>();
         gravity *= Time.fixedDeltaTime * Time.fixedDeltaTime;
         moveSpeed *= Time.fixedDeltaTime;
         jumpSpeed *= Time.fixedDeltaTime;
@@ -26,28 +29,43 @@ public class Player : MonoBehaviour
         id = _id;
         username = _username;
 
-        inputs = new bool[5];
+        inputs = new bool[6];
     }
 
     /// <summary>Processes player input and moves the player.</summary>
     public void FixedUpdate()
     {
+        pl.clearAnimations();
+
         Vector2 _inputDirection = Vector2.zero;
         if (inputs[0])
         {
+            pl.forwardPressed = true;
             _inputDirection.y += 1;
         }
         if (inputs[1])
         {
+            pl.backPressed = true;
             _inputDirection.y -= 1;
         }
         if (inputs[2])
         {
+            pl.leftPressed = true;
             _inputDirection.x -= 1;
         }
         if (inputs[3])
         {
+            pl.rightPressed = true;
             _inputDirection.x += 1;
+        }
+        if (inputs[5] || inputs[6])
+        {
+            moveSpeed = .5f;
+            pl.runPressed = true;
+        }
+        else
+        {
+            moveSpeed = .1f;
         }
 
         Move(_inputDirection);
@@ -60,6 +78,8 @@ public class Player : MonoBehaviour
         Vector3 _moveDirection = transform.right * _inputDirection.x + transform.forward * _inputDirection.y;
         _moveDirection *= moveSpeed;
 
+      //  transform.rotation = Quaternion.LookRotation(_moveDirection);
+
         if (controller.isGrounded)
         {
             yVelocity = 0f;
@@ -68,6 +88,7 @@ public class Player : MonoBehaviour
                 yVelocity = jumpSpeed;
             }
         }
+
         yVelocity += gravity;
 
         _moveDirection.y = yVelocity;
@@ -85,4 +106,5 @@ public class Player : MonoBehaviour
         inputs = _inputs;
         transform.rotation = _rotation;
     }
+
 }

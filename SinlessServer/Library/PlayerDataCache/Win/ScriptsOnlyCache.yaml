@@ -3,9 +3,19 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - NetworkManager
     - Player
+    - PlayerLocomotion
     - ThreadManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -36,9 +46,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -50,6 +68,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2312}
     - Class: 114
       Script: {instanceID: 3816}
+    - Class: 114
+      Script: {instanceID: 25746}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -529,11 +549,17 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 3cd7d5af4ede6afefc0f3f5b15cae512
+      Hash: 670988b59c94085405c08e5334f7b444
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 21819a2882f5eae6f6a1ce8e69343e5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerLocomotion
   platform: 5
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/Diogo/Desktop/Sinless/Sinless/SinlessServer/Build/SinlessServer.exe
+  playerPath: C:/Users/Diogo/Desktop/Sinless/Sinless/SinlessServer/Build/SinlessServer_Data/SinlessServer.exe

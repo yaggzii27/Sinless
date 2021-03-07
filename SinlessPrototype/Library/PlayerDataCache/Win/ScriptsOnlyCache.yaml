@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - PlayerController
     - PlayerLocomotion
     - PlayerManager
+    - SmoothFollow
     - ThreadManager
     - UIManager
     Unity.Rider.Editor.dll:
@@ -15,8 +16,10 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
     - UnityEditor.Graphs.AnimationBlendTree.Node
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -55,8 +58,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 72
       Script: {instanceID: 0}
     - Class: 74
@@ -74,6 +75,8 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1464}
@@ -100,13 +103,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3266}
+      Script: {instanceID: 3194}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3268}
     - Class: 114
-      Script: {instanceID: 3674}
+      Script: {instanceID: 3350}
+    - Class: 114
+      Script: {instanceID: 3676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,7 +205,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 0e6ba203c1c467bb97fce2c5edf2aeaf
+      Hash: 11ef19f3a763a69c5bbbfdaa02f1ba40
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraController
@@ -524,6 +529,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 1f051cf315b40db5ea3471c074c1339b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SmoothFollow
+  - hash:
+      serializedVersion: 2
       Hash: bd89c02c54734bc10c39b2afb3d65590
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityEngine.PostProcessing
@@ -657,4 +668,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Models/LowPolyOpenWorld/Scenes/Trial.unity
-  playerPath: C:/Users/Diogo/Desktop/Sinless/Sinless/SinlessPrototype/Builds/LocalBuild/SinlessPrototype.exe
+  playerPath: C:/Users/Diogo/Desktop/Sinless/Sinless/SinlessPrototype/Builds/nonlocal/SinlessPrototype.exe
