@@ -238,11 +238,11 @@ PrefabInstance:
     - target: {fileID: 4241505321989140620, guid: ade8d5c57e0640e4396d0dd3d1950c7e, type: 3}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 5228574640682996942, guid: b27f578f9206e834792ca8c77d3587a7, type: 3}
+      objectReference: {fileID: 8642313922365486004, guid: 86333d971f868ee45b1a3b5a8a8d3bb1, type: 3}
     - target: {fileID: 4241505321989140620, guid: ade8d5c57e0640e4396d0dd3d1950c7e, type: 3}
       propertyPath: localPlayerPrefab
       value: 
-      objectReference: {fileID: 5228574640682996942, guid: 2577e46fcacfd6b4a8586da11b0867ba, type: 3}
+      objectReference: {fileID: 2677083852993568544, guid: 13d320f3b3b4e184494bd044b56235d4, type: 3}
     - target: {fileID: 4241505321989140621, guid: ade8d5c57e0640e4396d0dd3d1950c7e, type: 3}
       propertyPath: m_Name
       value: GameManager
